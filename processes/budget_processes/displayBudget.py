@@ -1,0 +1,2 @@
+def testprinting():
+    print("test")
