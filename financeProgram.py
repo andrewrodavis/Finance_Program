@@ -12,15 +12,20 @@ current = os.path.dirname(os.path.realpath(__file__))
 
 # Get all required paths: good
 menusDir = current + "/menus"
+dataDir = current + "/dataManagement"
+# Get all process file paths
 processesDir = current + "/processes"
 budgetProcessDir = processesDir + "/budget_processes"
-dataDir = current + "/dataManagement"
+transProcessDir = processesDir + "/transaction_processes"
 
 # Add all paths to the system path list: good
 sys.path.append(menusDir)
-sys.path.append(processesDir)
 sys.path.append(dataDir)
+
+# Process path appends
+sys.path.append(processesDir)
 sys.path.append(budgetProcessDir)
+sys.path.append(transProcessDir)
 
 # Import all relevant modules
 import time

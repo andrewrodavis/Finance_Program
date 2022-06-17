@@ -1,5 +1,4 @@
-from processes.transactions import *
-from processes.transactions.add_a_transaction import testThisFun
+from processes.transactions_processes.add_a_transaction import *
 
 def trans_main():
    print("In the transaction menu")

@@ -1,0 +1,7 @@
+institution,account number,routing number,current balance
+usaa,xxxxxxxxx,yyyyyyyyy,$xxxx.yy
+// Include transactions associated with this account here as well
+date,payee,category,cleared,reconciled,payment,deposit,running balance,notes,transfer complete
+2022-20-6,usaa,y,y,0.00,0.05,1233.51,,complete
+2022-21-6,amex hilton,n,n,1.00,0.00,1234.56,,planned
+
